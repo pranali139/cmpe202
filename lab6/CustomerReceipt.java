@@ -12,12 +12,12 @@ public class CustomerReceipt implements Strategy
         {
             String placement = obj.getCategory();
             if (placement.equals("TB"))
-                obj.printDescription();
+                obj.printOrder();
             else if (placement.equals("OM")){
-                System.out.println( "->|" + obj.getDescription() ) ;
+                System.out.println( "->|" + obj.getOrder() ) ;
             }
             else if (placement.equals("BB")){
-                System.out.println( "{{{{" + obj.getDescription() + "}}}}" ) ;
+                System.out.println( "{{{{" + obj.getOrder() + "}}}}" ) ;
             }
             
             

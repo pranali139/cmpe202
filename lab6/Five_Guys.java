@@ -16,19 +16,19 @@ public class Five_Guys {
         customBurger.addChild( new Lettuce() ) ;
         customBurger.addChild( new Tomato() ) ;
         customBurger.addChild( new GrilledOnion() ) ;
-        customBurger.addChild( new GrilledJalapeno() ) ;
+        customBurger.addChild( new JalaGrilled() ) ;
         order.addChild( new Fries() ) ;
         Strategy s = new CustomerReceipt();
         customBurger.changeStrategy(s);
         System.out.println("Customer Receipt\n");
-        order.printDescription();
+        order.printOrder();
         Double totalPrice = order.getPrice();
         System.out.println("\nTotal Cost: "+ price.format(totalPrice));
         
         Strategy ps = new PackingSlip();
         customBurger.changeStrategy(ps);
         System.out.println("\nPacking Slip");
-        order.printDescription();
+        order.printOrder();
         
        
         

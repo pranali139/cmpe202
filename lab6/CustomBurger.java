@@ -16,18 +16,18 @@ public class CustomBurger extends Composite
         
   
     
-    public void printDescription(){
+    public void printOrder(){
         DecimalFormat fmt = new DecimalFormat("0.00");
         
         if (price > 0 && count == 0)
-            {description = description + " " + String.valueOf(price);  
+            {order = order + " " + String.valueOf(price);  
              count = 1;}
             else{
-                description = description + " ";
+                order = order + " ";
                 count = 0;
             }
             
-        System.out.println( description ) ;
+        System.out.println( order ) ;
         
         strategy.displayOrder(this);
         
