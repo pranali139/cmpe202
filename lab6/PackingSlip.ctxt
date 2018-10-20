@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PackingSlip
+comment1.params=
+comment1.target=PackingSlip()
+comment2.params=c
+comment2.target=void\ displayOrder(Composite)
+numComments=3
