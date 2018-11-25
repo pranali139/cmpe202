@@ -4,5 +4,7 @@ different types of independent behaviors and keeps businesss logic separate. In 
 
 ##### Crank Gumball Machine with Cost $25
 ![alt text](https://github.com/pranali139/cmpe202/blob/master/lab10/screenshot/crank-25.png)
+##### Crank Gumball Machine with Cost $50
 ![alt text](https://github.com/pranali139/cmpe202/blob/master/lab10/screenshot/crank-50.png)
+##### Slot Gumball Machine with Cost $50
 ![alt text](https://github.com/pranali139/cmpe202/blob/master/lab10/screenshot/slot-50.png)
